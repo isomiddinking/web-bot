@@ -4,7 +4,7 @@ import Card from '../card/card';
 const Home = ({ courses, onAddItem, onRemoveItem }) => {
   return (
     <div>
-      <h1 className="kurslar">Kurslar ro'yxati </h1>
+      <h1 className="kurslar">Barcha kurslar ro'yxati </h1>
 
       <div className="cards__container">
         {courses.map(course => (
