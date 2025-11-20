@@ -1,0 +1,62 @@
+/* button.css */
+
+.btn {
+  display: inline-block;
+  padding: 5px 24px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 8px;
+  cursor: pointer;
+  text-align: center;
+  transition: all 0.3s ease;
+  user-select: none;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+/* Add button style */
+.btn.add {
+  background: linear-gradient(145deg, #4CAF50, #43a047);
+  color: white;
+  border: 1px solid #4CAF50;
+}
+
+.btn.add:hover {
+  background: linear-gradient(145deg, #45a049, #388E3C);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* Remove button style */
+.btn.remove {
+  background: linear-gradient(145deg, #f44336, #e53935);
+  color: white;
+  border: 1px solid #f44336;
+}
+
+.btn.remove:hover {
+  background: linear-gradient(145deg, #da190b, #c62828);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* Checkout button style */
+.btn.checkout {
+  background: linear-gradient(145deg, #008CBA, #007bb5);
+  color: white;
+  border: 1px solid #008CBA;
+}
+
+.btn.checkout:hover {
+  background: linear-gradient(145deg, #007bb5, #006f9a);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* Button container for multiple buttons */
+.btn_container {
+  display: flex;
+  gap: 12px;
+  margin-top: 12px;
+}
